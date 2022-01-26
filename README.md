@@ -7,9 +7,9 @@ How to port scan your own VPS to find out which ports are not block by your netw
 
 # Requirements
 
-A VPS
+A VPS (with all ports open)
 
-A Linux System (can be WSL)
+A Linux System (can be WSL, on the network you want to scan)
 
 
 # How To
@@ -24,3 +24,5 @@ Here put in the IP of your server.
 ```
 sudo nmap -sU -v <server-ip>
 ```
+
+On your VPS you will then see the tcpdump requests that were not blocked.
