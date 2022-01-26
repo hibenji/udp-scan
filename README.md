@@ -5,14 +5,14 @@ Use at your own risk lol. (uwu - blame Mr.Dev#5599)
 
 How to port scan your own VPS to find out which ports are not block by your network.
 
-# Requirements
+## Requirements
 
 A VPS (with all ports open)
 
 A Linux System (can be WSL, on the network you want to scan)
 
 
-# How To
+## How To
 
 For IP put in the Public ip of the computer you are connecting from (the network you want to scan).
 ```
