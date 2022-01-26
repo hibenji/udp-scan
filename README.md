@@ -1,7 +1,7 @@
 # UDP SCAN (useful for public WIFI)
 Scan Network for open UDP ports.
 
-Use at your own risk lol. (uwu - blame Mr.Dev#5599)
+Use at your own risk lol. (uwu - blame Mr.Dev#5599 and Benji#1652)
 
 How to port scan your own VPS to find out which ports are not block by your network.
 
