@@ -16,7 +16,7 @@ A Linux System (can be WSL, on the network you want to scan)
 
 For IP put in the Public ip of the computer you are connecting from (the network you want to scan).
 ```
-tcpdump -nnq src host <ip> and not port ssh
+sudo tcpdump -nnq src host <ip> and not port ssh
 ```
 
 
