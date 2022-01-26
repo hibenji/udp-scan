@@ -21,5 +21,5 @@ tcpdump -nnq src host <ip> and not port ssh
 
 Here put in the IP of your server.
 ```
-sudo nmap -sU -v <server-ip> --help
+sudo nmap -sU -v <server-ip>
 ```
