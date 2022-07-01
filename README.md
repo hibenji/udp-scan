@@ -14,12 +14,13 @@ A Linux System (can be WSL, on the network you want to scan)
 
 ## How To
 
+### On your server
 For IP put in the Public ip of the computer you are connecting from (the network you want to scan).
 ```
 sudo tcpdump -nnq src host <ip> and not port ssh
 ```
 
-
+### On a computer of the Network you want to scan
 Here put in the IP of your server.
 ```
 sudo nmap -sU -v <server-ip>
